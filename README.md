@@ -145,6 +145,55 @@ Jorge Cárdenas
 
 
 
+# Pruebas
+## **Resumen Ejecutivo**
+
+Este plan de pruebas de Software se elabora con el fin de especificar qué elementos o componentes hasta ahora desarrollados se van a probar para que el grupo de trabajo pueda realizar el proceso de validación y verificación de los requerimientos funcionales y no funcionales del aplicativo. Además, a través de este proceso se conseguirá continuar con la trazabilidad de los requerimientos, con lo cual el grupo desarrollador, identificará el porcentaje de avance que se ha logrado hasta este punto momento.
+
+Al desarrollar este plan de pruebas, se obtendrá información sobre los errores, defectos o fallas que tiene el prototipo, así se realizan las correcciones pertinentes, según el caso y se asegura la calidad del producto que se está entregando al cliente. Con esta estrategia se asegura llevar el seguimiento de la trazabilidad que se ha manejado desde la especificación de requerimientos, además de mantener la consistencia entre la aplicación y su respectiva documentación.
+
+## **Alcance de las Pruebas**
+
+Este plan de prueba está diseñado para estudiar y evaluar el prototipo de “Gestor de Actividades” hasta ahora desarrollado. La detección de falencias en el aplicativo desde etapas tempranas de desarrollo nos aproximará aún más a un producto integral y con verdadera calidad de software, logrando satisfacer las necesidades de nuestro cliente (el público), sin mencionar el ahorro de costos y recursos. Para ello tomaremos como practica de testing abordar este plan de pruebas desde los requerimientos reflejados en los dos módulos que componen al prototipo antes mencionado, buscando la confiabilidad y robustez de los mismos, y evitando regresiones bruscas en las etapas futuras del proyecto. En este orden de ideas, este plan de pruebas abarca, de manera objetiva, simple y auto-contenida,  la revisión de los componentes desarrollados, permitiendo entender que se está probando.
+
+En primera instancia se pondrá a prueba el desempeño del componente que permitirá al usuario editar sus proyectos, con ello se incluirán el testing a funciones de edición, revisión, etc. Cabe resaltar que por el momento se dejaran en segundo los requerimientos no funcionales que involucren a este componente y sus respectivas funcionalidades.
+
+El segundo componente a evaluar es el del manejo de la información, ubicada en el servidor que ofrece el espacio para la base de datos, y el flujo de datos. En las pruebas asignadas a este componente, se evaluaran el correcto funcionamiento de los servicios e interacciones que ofrece, orientándose en la calidad del componente, asegurando respuestas coherentes a las peticiones que se le hagan.
+
+##  **Elementos de Pruebas**
+
+1. Componente de escritura y edición de datos:
+- Comportamiento de los botones asignados.
+- Desplegado de texto de manera correcta.
+- Verificar el sistema de etiquetado, referencias, linkeo etc.
+- Desplegado de campo de texto de manera correcta y que ofrezca las funcionalidades necesarias (Iteractibilidad).
+
+2. Componente de gestión de datos:
+
+- Persistencia de la información.
+- Seguridad e integridad de datos.
+- Transparencia en los procesos.
+
+## **Nuevas Funcionalidades a Probar**
+
+Debido a que nos encontramos en una fase temprana de desarrollo en el proyecto, sin mencionar que este es el primer plan de pruebas diseñado a lo largo del mismo, las nuevas funcionalidades a probar corresponden a las planeadas en los dos componentes hasta ahora desarrollados. Estas son
+
+1. Componente de escritura y edición de datos:
+
+- Comportamiento de los botones asignados.
+- Desplegado de texto de manera correcta.
+- Verificar el sistema de etiquetado, referencias, linkeo etc.
+- Desplegado de campo de texto de manera correcta y que ofrezca las funcionalidades necesarias (Iteractibilidad).
+
+2.  Componente de gestión de datos:
+- Persistencia de la información.
+- Seguridad e integridad de datos.
+- Transparencia en los procesos.
+
+## **Pruebas de Regresión**
+
+Debido a que no se registran versiones anteriores al software y que hasta ahora se han diseñado dos componentes para el aplicativo, siendo estos dos lo que van a ser puestos a prueba, no se programaran pruebas de regresión exhaustivas, puesto que estas pruebas de software intentan descubrir errores en el comportamiento esperado del software, causados por la realización de un cambio en el esquema codificado.  Mas sin embargo si se programan tiempos de holgura entre etapas de prueba para que sean utilizados en caso de necesitar modificar el código o lógica de lo hasta ahora desarrollado.
+
 
 
 
